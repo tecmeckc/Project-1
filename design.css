@@ -1,0 +1,276 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:"Montserrat",sans-serif;
+}
+.necessary{
+    margin-top: 0.5rem;
+    display:flex;
+    height:100vh;
+}
+.nav{
+    display:flex;
+    margin-top: 0.25rem;
+    justify-content: center;
+    background-color: #121212;
+    flex-direction: column;
+    height:7rem;
+    line-height: 1.25rem;
+    border-radius:1rem;
+    margin-right: 0.75rem;
+}
+.no1{
+    line-height: 1.5rem;
+    padding: 0.35rem 0.75rem;
+    margin-left: 0.75rem;
+    opacity: 1;
+}
+.no1 a{
+    font-size:1rem;
+}
+.no1 i{
+    font-size:1.25rem
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.library{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 1.75rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    background-color: #121212;
+}
+.no2{
+    line-height: 1.5rem;
+    padding: 0.35rem 0.75rem;
+    opacity:0.7;
+    margin-left: 0.75rem;
+}
+.no2:hover{
+    opacity: 1;
+}
+.sidebarmenu{
+    width:340px;
+    background-color:black;
+   border-radius:1rem;
+}
+.content{
+    flex:1;
+    background-color: #121212;
+    border-radius:1rem;
+    overflow: auto;
+}
+.musicplayer{
+    background-color: black;
+    position:fixed;
+    left:0;
+    z-index:1;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    height:3.5rem;
+    border-radius:1rem;
+}
+.lib-options img{
+   height: 1.25rem;
+   width:fit-content;
+   margin-left: 0.5rem;
+   margin-right: 0.75rem;
+}
+.li2 i{
+  font-size: 1.25rem;
+  opacity: 0.7;
+  margin-right: 0.5rem;
+}
+.li2 i:hover{
+    opacity: 1;
+  }
+.lib-options {
+    opacity: 0.7;
+ }
+ .lib-options:hover{
+  opacity: 1;
+ }
+ .no{
+    position: absolute;
+    left:1rem;
+    top:0.75rem;
+ }
+ .boxes{
+    background-color: #121212;
+    height: 9rem;
+    margin-top: 1.75rem;
+    margin-right: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+   
+ }
+ .box-p1{
+padding: 0.25rem 1rem;
+font-size: 1rem;
+font-weight:700
+ }
+ .box-p2{
+    padding: 0.25rem 1rem;
+    font-size:0.75rem;
+    opacity: 0.7;
+    
+ }
+ .badge{
+    color: black;
+     background-color: white; 
+     font-weight: 700;
+     text-align: center;
+     height: 2rem; 
+     border-radius: 1rem;
+     width:fit-content; 
+     font-size: 0.75rem; 
+     border:none;
+    position:absolute;
+    left:2rem;
+ }
+ .stickyy-nav{
+    position: sticky;
+    top:0;
+    background-color: rgb(5, 2, 10);
+    display: flex;
+    height: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+ }
+ .sticky-nav-buttons{
+    display:flex;
+    justify-content: center;
+ }
+ .sticky-nav-buttons button{
+   margin: 0.4rem;
+ }
+ .badge1{
+    margin-left: 2rem;
+    color: black;
+    background-color: white; 
+    font-weight: 700;
+    text-align: center;
+    height: 2rem; 
+    border-radius: 1rem;
+    width:fit-content; 
+    font-size: 0.75rem; 
+    border:none;
+ }
+ .card1{
+    background-color: #1c1a1a;
+    width: 150px;
+    border-radius: 0.5rem;
+    margin-top: 0.85rem;
+    padding: 0 1.5rem 0 1.5rem;
+ }
+ @media (max-width:900px){
+    .hide{
+        display: none;
+    }
+ }
+ .cards-container{
+    display: flex;
+    padding: 0 1.5rem 0 1.5rem;
+  
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .footer{
+    height: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .line{
+    width: 90%;
+    height: 30%;
+    opacity: 0.4;
+    border-top: 1px solid white;
+ }
+ 
+ .play-control {
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   padding: 4px 15px 15px 4px;
+    /* width: 70%; */
+    flex-wrap: wrap;
+    margin-top: 4px;
+ }
+ .click{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   margin-left: 0;
+   
+ }
+ .d{
+   width:30rem;
+   appearance: none;
+   height: 0.5rem;
+   margin: 2px;
+   background-color: white;
+   border-radius:5px;
+ }
+ .ic{
+   display: flex;
+ }
+ .play-control img {
+   /* margin-left: 15px; */
+    height: 1rem;
+    margin: 0.5rem;
+    opacity: 0.7;
+ }
+ .play-control img:hover {
+    opacity: 1;
+ }
+ .rangebar{
+  align-items: center;
+   justify-content: center;
+ }
+ 
+ .volume-set{
+    width: 25%;
+ }
+ .album img{
+   height: 2rem;
+   width: 60px;
+   
+ }
+ .progress-bar::-webkit-slider-thumb{
+   appearance: none;
+   background-color: #1bd760;
+ }
+
+.click{
+   width: 20%;
+   display: flex;
+   margin: 8px;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+   left: 0;
+   bottom:1px;
+}
+.album{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 0;
+   width: 25%;
+  
+}
+.ic p img{
+   height: 1rem;
+   z-index: 1;
+    margin: 0.5rem;
+    opacity: 0.7;
+}
+ 
